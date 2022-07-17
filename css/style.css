@@ -411,7 +411,9 @@ body{
 	.take-care__title {
 		font-size: 34px;
 	}
-
+	.video-take-care::before{
+		top: -6px;
+	}
 	.block-text__text{
 		max-width: none;
 	}
@@ -422,9 +424,6 @@ body{
 	}
 	.take-care__video {
 		padding: 0px 0px 0px 59px;
-	}
-	.take-care__video::before{
-		top: -6px;
 	}
 }
 
